@@ -1,5 +1,5 @@
 # federated_learning_experiment
-federated_learning experiments on MNIST
+Federated_learning experiments on MNIST
 
 Experiments of federated learning with varies of acclerators.<br>
 The setting of the optimizer is flollowed below links:<br>
