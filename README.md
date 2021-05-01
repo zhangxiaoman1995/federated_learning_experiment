@@ -18,4 +18,4 @@ requirement: pip install pytorch==1.4.0 ; pip install torchvision==0.5.0
 <br>
 run 'python3 main.py --mu 0.001 --optimizer FedProx --save_path niid_t_5_shuffle_0.5_prox/'
 <br>
-The loss/epoch is saved in the folder /runs, the test acc/epoch is saved in the folder /test_acc
+The loss/epoch is saved in the folder `/runs`, the test acc/epoch is saved in the folder `/test_acc`
