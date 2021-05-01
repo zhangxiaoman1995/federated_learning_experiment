@@ -14,8 +14,8 @@ Scaffold: Sai Praneeth Karimireddy, Satyen Kale, Mehryar Mohri, Sashank Reddi, S
 Ananda Theertha Suresh. Scaffold: Stochastic controlled averaging for federated learning. In
 International Conference on Machine Learning, pages 5132–5143. PMLR, 2020.<br>
 <br>
-requirement: pip install pytorch==1.4.0 ; pip install torchvision==0.5.0
+requirement: pip install pytorch==1.4.0 ; pip install torchvision==0.5.0<br>
 <br>
-run 'python3 main.py --mu 0.001 --optimizer FedProx --save_path niid_t_5_shuffle_0.5_prox/'
+run 'python3 main.py --mu 0.001 --optimizer FedProx --save_path niid_t_5_shuffle_0.5_prox/'<br>
 <br>
 The loss/epoch is saved in the folder `/runs`, the test acc/epoch is saved in the folder `/test_acc`
