@@ -75,7 +75,7 @@ def main():
             for idx in range(args.num_nodes):
                 #import pdb; pdb.set_trace()
                 local = LocalUpdate(args=args, dataset=dataset_train)
-                w, loss = local.train(net=copy.deepcopy(net_glob).to(args.device))
+                w, loss = local.train(net=copy.deepcopy(net_glob).to(args.device),idxs=idx)
                 w_locals[idx] = copy.deepcopy(w)
                 loss_locals.append(copy.deepcopy(loss))
             # update global weights
