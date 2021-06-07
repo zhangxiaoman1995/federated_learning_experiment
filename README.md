@@ -14,8 +14,8 @@ International Conference on Machine Learning, pages 5132–5143. PMLR, 2020.<br>
 <br>
 requirement: pip install pytorch==1.4.0 ; pip install torchvision==0.5.0<br>
 <br>
-For Fedprox optimizer run 'python3 main.py --mu 0.001 --optimizer FedProx --save_path niid_t_5_shuffle_0.5_prox/'<br>
+For Scaffold optimizer run 'python3 run_main.py --optimizer scaffold --save_path niid_scaffold_lr0.001_simi0.0_400epoch --lr 0.001 --save_lossdir niid_scaffold_lr0.01_simi0.0_400epoch --save_accdir niid_scaffold_lr0.001_simi0.0_400epoch'<br>
 <br>
-For SGD optimizer run 'python3 main.py --mu 0.001 --optimizer SGD --save_path niid_t_5_shuffle_0.5_prox/'<br>
+For FedProx optimizer run 'python3 run_main.py --optimizer fedprox --save_path niid_scaffold_lr0.001_simi0.0_400epoch --lr 0.001 --save_lossdir niid_scaffold_lr0.01_simi0.0_400epoch --save_accdir niid_scaffold_lr0.001_simi0.0_400epoch'<br>
 <br>
 The loss/epoch is saved in the folder `/runs`, the test acc/epoch is saved in the folder `/test_acc`
